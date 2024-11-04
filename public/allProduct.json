@@ -1,0 +1,113 @@
+[
+    {
+      "product_id": "1",
+      "product_title": "Smart Watch X200",
+      "product_image": "https://i.ibb.co.com/w785crm/download-17.jpg",
+      "category": "Watches",
+      "price": 120,
+      "description": "A high-end smartwatch with multiple health tracking features.",
+      "Specification": ["Heart Rate Monitor", "GPS", "Water Resistant", "Sleep Tracker"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "2",
+      "product_title": "ProMax Laptop",
+      "product_image": "https://i.ibb.co.com/0ZPsphB/view-3d-laptop-device-with-screen-keyboard.jpg",
+      "category": "Computers",
+      "price": 1500,
+      "description": "A powerful laptop for professional work and gaming.",
+      "Specification": ["16GB RAM", "1TB SSD", "4K Display", "8-Core Processor"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "3",
+      "product_title": "UltraHD Smartphone",
+      "product_image": "https://i.ibb.co.com/HPGHb2d/download-16.jpg",
+      "category": "Phones",
+      "price": 999,
+      "description": "A flagship smartphone with an incredible camera and display.",
+      "Specification": ["128GB Storage", "Quad Camera", "5G Support", "Face ID"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "4",
+      "product_title": "Wireless Charger",
+      "product_image": "https://i.ibb.co.com/ypQXYWq/download-11.jpg",
+      "category": "Chargers",
+      "price": 60,
+      "description": "Fast wireless charging pad compatible with multiple devices.",
+      "Specification": ["15W Fast Charge", "Qi-Certified", "Compact Design"],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": "5",
+      "product_title": "Power Bank 20000mAh",
+      "product_image": "https://i.ibb.co.com/PjSF915/download-12.jpg",
+      "category": "Power Banks",
+      "price": 80,
+      "description": "High-capacity power bank with dual USB ports.",
+      "Specification": ["20000mAh Capacity", "Dual USB Output", "LED Indicator"],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "6",
+      "product_title": "Gaming Laptop Y700",
+      "product_image": "https://i.ibb.co.com/BVKwv3g/download-13.jpg",
+      "category": "Computers",
+      "price": 1800,
+      "description": "A dedicated gaming laptop with advanced graphics and cooling.",
+      "Specification": ["32GB RAM", "512GB SSD", "NVIDIA GTX 3080"],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "7",
+      "product_title": "Fitness Smart Watch",
+      "product_image": "https://i.ibb.co.com/dgtcPWg/download-14.jpg",
+      "category": "Watches",
+      "price": 80,
+      "description": "A smartwatch focused on fitness tracking with long battery life.",
+      "Specification": ["Step Counter", "Calorie Burn Tracker", "Sleep Monitor"],
+      "availability": true,
+      "rating": 4.2
+    },
+    {
+      "product_id": "8",
+      "product_title": "High-Speed Charger",
+      "product_image": "https://i.ibb.co.com/R4Cq7sC/download-15.jpg",
+      "category": "Chargers",
+      "price": 75,
+      "description": "A high-speed charger with USB-C compatibility.",
+      "Specification": ["20W USB-C Fast Charging", "Compact and Portable"],
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": "9",
+      "product_title": "Slim Power Bank 10000mAh",
+      "product_image": "https://i.ibb.co.com/zHKwLDh/images-3.jpg",
+      "category": "Power Banks",
+      "price": 55,
+      "description": "A slim and portable power bank ideal for travel.",
+      "Specification": ["10000mAh Capacity", "USB-C & USB-A Ports"],
+      "availability": true,
+      "rating": 4.1
+    },
+    {
+      "product_id": "10",
+      "product_title": "Budget Smartphone A10",
+      "product_image": "https://i.ibb.co.com/0DG1gp0/smartphone-nature-concept.jpg",
+      "category": "Phones",
+      "price": 299,
+      "description": "An affordable smartphone with essential features.",
+      "Specification": ["64GB Storage", "Dual Camera", "HD Display"],
+      "availability": true,
+      "rating": 3.9
+    }
+  ]
+  
