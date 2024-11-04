@@ -1,8 +1,8 @@
 
 const Error = () => {
     return (
-        <div>
-            <h2>oopss page not found!!</h2>
+        <div className="text-center flex justify-center items-center ">
+            <h2 className="text-3xl font-semibold">Something went wrong while loading the page.😥</h2>
             
         </div>
     );

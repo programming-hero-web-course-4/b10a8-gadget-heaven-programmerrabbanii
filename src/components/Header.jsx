@@ -3,7 +3,7 @@ import bannarIm from '../assets/banner.jpg'
 
 const Header = () => {
     return (
-        <div>
+        <div className="bg-gray-50">
             <div className="bg-[#9538E2] ">
             <div className="navbar w-11/12 mx-auto ">
   <div className="navbar-start">
@@ -71,9 +71,11 @@ const Header = () => {
 
             </div>
 
-               <div className="w-7/12 mx-auto relative -mt-52 border-2 p-5 rounded-2xl">
+            
+              <div className="w-7/12 mx-auto relative -mt-52 border-2 p-5 rounded-2xl ">
                <img className="rounded-2xl" src={bannarIm} alt="" />
                </div>
+              
           
         </div>
     );
