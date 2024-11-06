@@ -1,9 +1,14 @@
+import DashBannar from "../components/DashBannar";
+import Navbar from "../components/Navbar";
 
 const Dashboard = () => {
+   
+
     return (
         <div>
-            <h3>this is Dashboard</h3>
-            
+            <Navbar />
+            <DashBannar />
+
         </div>
     );
 };

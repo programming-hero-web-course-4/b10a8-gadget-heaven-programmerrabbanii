@@ -6,8 +6,8 @@ const Product = ({product}) => {
   
     return (
         <div>
-            <div className="card bg-base-100  shadow-xl">
-  <figure>
+            <div className="card bg-base-100  shadow-xl rounded-lg  p-5 w-72 transition-all transform hover:scale-105 hover:shadow-2xl duration-300 ease-in-out">
+  <figure> 
     <img
     className="h-56  w-full object-cover"
       src={product_image}

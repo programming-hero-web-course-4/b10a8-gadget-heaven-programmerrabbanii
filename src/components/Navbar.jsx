@@ -1,9 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = ({cartCount}) => {
     return (
-        <div>
+        <div className='sticky top-0 z-10'>
              <div className="bg-white text-black ">
             <div className="navbar w-11/12 mx-auto ">
   <div className="navbar-start">
@@ -30,9 +30,6 @@ const Navbar = () => {
             <li className="mr-3 text-black"><NavLink to="/about">About</NavLink> </li>
             <li className="mr-3 text-black"><NavLink to="/dashboard">Dashboard</NavLink> </li>
            
-           
-            
-
       </ul>
     </div>
     <a className="btn btn-ghost text-xl text-black">Gadget Heaven</a>
@@ -49,7 +46,10 @@ const Navbar = () => {
   </div>
   <div className="navbar-end gap-5">
   <i class="fa-solid fa-cart-shopping bg-white rounded-full h-10 w-10 flex justify-center items-center cursor-pointer"></i>
-  <i class="fa-regular fa-heart    bg-white rounded-full h-10 w-10 flex justify-center items-center cursor-pointer"></i>
+
+  <i  class="fa-regular fa-heart    bg-white rounded-full h-10 w-10 flex justify-center items-center cursor-pointer " >
+  ({cartCount})
+  </i>
   </div>
 </div>
             </div>
