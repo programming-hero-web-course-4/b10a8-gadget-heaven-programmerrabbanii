@@ -1,3 +1,5 @@
+import { ToastContainer, toast } from 'react-toastify'; 
+import 'react-toastify/dist/ReactToastify.css';  
 import { useLoaderData, useParams } from "react-router-dom";
 import Navbar from "./Navbar";
 import ProductDban from "./ProductDban";
@@ -6,7 +8,7 @@ import { useState } from "react";
 
 const ProductsDetails = () => {
     const { detailsId } = useParams();
-    const data = useLoaderData();
+    const data = useLoaderData();  
 
     const item = data.find(item => item.product_id === detailsId);
     if (!item) return <div>Product not found</div>; 
@@ -18,15 +20,17 @@ const ProductsDetails = () => {
 
     const handleAddToCart = () => {
         addTostoreReadList(item);
-        alert(`${item.product_title} added to cart!`);
+        toast.success(`${item.product_title} has been added to your cart!`); 
         setCartCount(prevCount => prevCount + 1);
     };
 
+    
     const addToWishlist = (item) => {
         if (!wishlist.includes(item.product_id)) {
             setWishlist([...wishlist, item.product_id]);
+            toast.success(`${item.product_title} has been added to your wishlist!`); 
         } else {
-            console.log('Item already in wishlist');
+            toast.error(`${item.product_title} is already in your wishlist!`); 
         }
     };
 
@@ -83,6 +87,8 @@ const ProductsDetails = () => {
                     </div>
                 </div>
             </div>
+
+            <ToastContainer />
         </div> 
     );
 };

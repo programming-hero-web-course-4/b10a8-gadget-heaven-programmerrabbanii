@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { getStoreReadList } from "../utility/addToDb";
 
@@ -49,9 +50,10 @@ const DashBannar = () => {
                     </figure>
                     <div className="card-body">
                       <h2 className="card-title">{item.product_title}</h2>
-                      <p>Click the button to watch on Jetflix app.</p>
+                      <p>Description:{item.description}</p>
+                      <p>Prices: {item.price}</p>
                       <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Watch</button>
+                        <button className="btn btn-primary"><i class="fa-solid fa-trash"></i></button>
                       </div>
                     </div>
                   </div>
@@ -59,7 +61,7 @@ const DashBannar = () => {
 
                         </div>
                     ))}
-                    {/* <p className="font-semibold">Total Price: ${calculateTotalPrice(cartItems)}</p> */}
+                   
                 </div>
             )}
 
